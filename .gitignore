@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+log/
+logs/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Mininet specific
+*.pcap
+*.out
+
+# Network topology files (if generated)
+*.bak
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+# Do not include any sensitive files in the repository
+# but if you have any, list them here
+# Example:
+# secrets.json
+# Scripts
+scripts/secure_push.sh
+scripts/setup_git_auth.sh
